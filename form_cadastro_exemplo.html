@@ -94,9 +94,10 @@
             <input type="password" id="senha" name="senha" required>
 
             <label for="cep">CEP:</label>
-            <input type="text" id="cep" name="cep" placeholder="00000-000" onblur="buscarCEP()">
+            <input type="text" id="cep" name="cep" placeholder="00000-000" minlength="8" maxlength="8" pattern="\d{8}" onblur="buscarCEP()" required>
 
-            <label for="logradouro">Rua/Avenida:</label>
+
+            <label for="logradouro">Rua/Avenida/Logradouro:</label>
             <input type="text" id="logradouro" name="logradouro">
 
             <label for="numero">Número:</label>
