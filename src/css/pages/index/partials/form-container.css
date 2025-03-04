@@ -1,9 +1,0 @@
-/* configs. padrao para form login e cadastro */
-.form-container {
-    width: 90%;
-    max-width: 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
